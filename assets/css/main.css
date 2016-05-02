@@ -165,7 +165,7 @@
 
 /* Grid */
 
-	.row {
+	/*.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -288,7 +288,7 @@
 
 	.row.uniform.\32 5\25 {
 		margin: -10px 0 -1px -10px;
-	}
+	}*/
 
 	.\31 2u, .\31 2u\24 {
 		width: 100%;
@@ -423,7 +423,7 @@
 
 	@media screen and (min-width: 737px) {
 
-		.row > * {
+		/*.row > * {
 			padding: 50px 0 0 50px;
 		}
 
@@ -501,7 +501,7 @@
 
 		.row.uniform.\32 5\25 {
 			margin: -12.5px 0 -1px -12.5px;
-		}
+		}*/
 
 		.\31 2u\28desktop\29, .\31 2u\24\28desktop\29 {
 			width: 100%;
@@ -638,7 +638,7 @@
 
 	@media screen and (min-width: 737px) and (max-width: 1600px) {
 
-		.row > * {
+		/*.row > * {
 			padding: 35px 0 0 35px;
 		}
 
@@ -716,7 +716,7 @@
 
 		.row.uniform.\32 5\25 {
 			margin: -8.75px 0 -1px -8.75px;
-		}
+		}*/
 
 		.\31 2u\28tablet\29, .\31 2u\24\28tablet\29 {
 			width: 100%;
@@ -853,7 +853,7 @@
 
 	@media screen and (max-width: 736px) {
 
-		.row > * {
+		/*.row > * {
 			padding: 10px 0 0 10px;
 		}
 
@@ -931,7 +931,7 @@
 
 		.row.uniform.\32 5\25 {
 			margin: -2.5px 0 -1px -2.5px;
-		}
+		}*/
 
 		.\31 2u\28mobile\29, .\31 2u\24\28mobile\29 {
 			width: 100%;
@@ -2165,128 +2165,6 @@
 				font-size: 0.9em;
 			}
 
-		/* Nav */
-
-			#nav {
-				position: absolute;
-				display: block;
-				top: 2.5em;
-				left: 0;
-				width: 100%;
-				text-align: center;
-			}
-
-				#nav > ul {
-					display: inline-block;
-					border-radius: 0.35em;
-					box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-					padding: 0 1.5em 0 1.5em;
-				}
-
-					#nav > ul > li {
-						display: inline-block;
-						text-align: center;
-						padding: 0 1.5em 0 1.5em;
-					}
-
-						#nav > ul > li > ul {
-							display: none;
-						}
-
-						#nav > ul > li > a, #nav > ul > li > span {
-							display: block;
-							color: #eee;
-							color: rgba(255, 255, 255, 0.75);
-							text-transform: uppercase;
-							text-decoration: none;
-							font-size: 0.7em;
-							letter-spacing: 0.25em;
-							height: 5em;
-							line-height: 5em;
-							-moz-transition: all .25s ease-in-out;
-							-webkit-transition: all .25s ease-in-out;
-							-o-transition: all .25s ease-in-out;
-							-ms-transition: all .25s ease-in-out;
-							transition: all .25s ease-in-out;
-							outline: 0;
-						}
-
-						#nav > ul > li:hover > a {
-							color: #fff;
-						}
-
-						#nav > ul > li.active > a, #nav > ul > li.active > span {
-							color: #fff;
-						}
-
-			.dropotron {
-				background: #222835 url("images/overlay.png");
-				background-color: rgba(44, 50, 63, 0.925);
-				padding: 1.25em 1em 1.25em 1em;
-				border-radius: 0.35em;
-				box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-				min-width: 12em;
-				text-align: left;
-				margin-top: -1.25em;
-				margin-left: -1px;
-			}
-
-				.dropotron.level-0 {
-					margin-top: -1px;
-					margin-left: 0;
-					border-top-left-radius: 0;
-					border-top-right-radius: 0;
-				}
-
-				.dropotron a, .dropotron span {
-					-moz-transition: all .25s ease-in-out;
-					-webkit-transition: all .25s ease-in-out;
-					-ms-transition: all .25s ease-in-out;
-					transition: all .25s ease-in-out;
-					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
-					text-transform: uppercase;
-					text-decoration: none;
-					font-size: 0.7em;
-					letter-spacing: 0.25em;
-					border-top: solid 1px rgba(255, 255, 255, 0.15);
-					line-height: 3em;
-				}
-
-				.dropotron li:first-child a, .dropotron li:first-child span {
-					border-top: 0;
-				}
-
-				.dropotron li:hover > a, .dropotron li:hover > span {
-					color: #fff;
-				}
-
-		/* Intro */
-
-			#intro {
-				text-align: center;
-			}
-
-				#intro > .style1 {
-					font-size: 1.5em;
-					letter-spacing: 0.075em;
-				}
-
-				#intro > .style2 {
-					font-size: 2.75em;
-					letter-spacing: 0.075em;
-					line-height: 1.35em;
-					padding: 1em 0 1em 0;
-					margin-bottom: 1em;
-				}
-
-				#intro > .style3 {
-					font-size: 1.1em;
-					width: 48em;
-					margin: 0 auto;
-				}
-
 		/* Features */
 
 			#features {
@@ -2415,16 +2293,6 @@
 				#logo h1 {
 					font-size: 1.75em;
 				}
-
-		/* Intro */
-
-			#intro > .style1 {
-				font-size: 1.25em;
-			}
-
-			#intro > .style2 {
-				font-size: 2.25em;
-			}
 
 		/* Copyright */
 
@@ -2786,27 +2654,6 @@
 					display: block;
 					letter-spacing: 0.2em;
 					font-size: 0.9em;
-				}
-
-		/* Nav */
-
-			#nav {
-				display: none;
-			}
-
-		/* Intro */
-
-			#intro {
-				text-align: center;
-				padding: 1em 2em 1em 2em !important;
-				margin: 0 auto;
-			}
-
-				#intro .style2 {
-					font-size: 1.5em;
-					letter-spacing: 0.05em;
-					line-height: 1.25em;
-					padding: 1.25em;
 				}
 
 		/* Main */

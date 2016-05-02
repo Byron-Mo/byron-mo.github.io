@@ -1,0 +1,28 @@
+.feature-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 840px;
+  margin: 0 auto;
+}
+
+.feature-items div {
+  margin: 19px;
+}
+
+.row.150% {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media screen and (min-width: 737px) and (max-width: 1600px) {
+  .feature-items {
+    width: 840px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .feature-items {
+    width: 400px;
+  }
+}
