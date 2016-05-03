@@ -10,19 +10,51 @@
   margin: 19px;
 }
 
-.row.150% {
+div.row {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  width: 1615px;
+  margin: 0 auto;
+}
+
+.row-content {
+  width: 30%;
+  margin: 0 25px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.15em;
+  letter-spacing: 0.05em;
+  color: #e97770;
+  margin: 0 0 0.75em 0;
 }
 
 @media screen and (min-width: 737px) and (max-width: 1600px) {
   .feature-items {
     width: 840px;
   }
+
+  div.row {
+    width: 1052px
+  }
+
+  .row-content {
+    margin: 0 15px;
+  }
 }
 
 @media screen and (max-width: 736px) {
   .feature-items {
     width: 400px;
+  }
+
+  div.row {
+    width: 90%;
+  }
+
+  .row-content {
+    width: 100%;
   }
 }
