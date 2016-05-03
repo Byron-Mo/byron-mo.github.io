@@ -1757,7 +1757,7 @@
 	}
 
 		#header-wrapper:before {
-			content: '';
+			/*content: '';*/
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -2124,7 +2124,7 @@
 		/* Header */
 
 			#header {
-				background-image: url("http://res.cloudinary.com/dptviwjop/image/upload/v1452623029/grey-wall-full-hd-by-lars-fredriksson-black-1259964_eqo1e9.jpg");
+				background-image: url("http://res.cloudinary.com/dptviwjop/image/upload/c_scale,w_810/v1452623029/grey-wall-full-hd-by-lars-fredriksson-black-1259964_eqo1e9.jpg");
 				background-position: 50% 50%;
 				position: relative;
 				padding: 12em 0;
@@ -2281,7 +2281,7 @@
 			}
 
 			.homepage #header {
-				padding: 14em 0;
+				/*padding: 14em 0;*/
 			}
 
 		/* Logo */

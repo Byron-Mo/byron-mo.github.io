@@ -43,6 +43,10 @@ h3 {
   .row-content {
     margin: 0 15px;
   }
+
+  #header-wrapper {
+    height: 550px;
+  }
 }
 
 @media screen and (max-width: 736px) {
@@ -56,5 +60,16 @@ h3 {
 
   .row-content {
     width: 100%;
+  }
+
+  #header-wrapper {
+    background-image: url("http://res.cloudinary.com/dptviwjop/image/upload/c_scale,w_810/v1452623029/grey-wall-full-hd-by-lars-fredriksson-black-1259964_eqo1e9.jpg");
+    background-position: 50% 50%;
+    position: relative;
+    /*padding: 12em 0;*/
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
   }
 }
